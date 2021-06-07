@@ -13,6 +13,16 @@ namespace UI
         [SerializeField]
         private GameObject _gamePrefab;
         private RectTransform _contentHolder;
+        [SerializeField]
+        private Image _descriptiptionIcon;
+        [SerializeField]
+        private TextMeshProUGUI _descriptionTitle;
+        [SerializeField]
+        private ScrollRect _desctriptionScreenshotHolder;
+        [SerializeField]
+        private TextMeshProUGUI _descriptionText;
+        [SerializeField]
+        private Canvas _descriptionCanvas;
 
 
         void Start()
@@ -28,10 +38,17 @@ namespace UI
             foreach (var i in _gameData.GameList)
             {
                 GameObject game = Instantiate(_gamePrefab, transform);
+                GameDescription description = game.GetComponent<GameDescription>();
+                description.Description = _descriptionText;
+                description.Title = _descriptionTitle;
+                description.Icon = _descriptiptionIcon;
+                description.ScreenshotHolder = _desctriptionScreenshotHolder;
+                description.gameRef = i;
+                description.DescriptionCanvas = _descriptionCanvas;
                 Image gameImage = game.GetComponent<Image>();
-                gameImage.sprite = i.screenshots[0];
+                gameImage.sprite = i.Screenshots[0];
                 TextMeshProUGUI gameTitle = game.GetComponentInChildren<TextMeshProUGUI>();
-                gameTitle.text = i.title;
+                gameTitle.text = i.Title;
             }
         }
 

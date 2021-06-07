@@ -13,15 +13,18 @@ MonoBehaviour:
   m_Name: GameList
   m_EditorClassIdentifier: 
   GameList:
-  - title: First Super Game
-    description: Super mega game
-    screenshots:
-    - {fileID: 21300000, guid: e89cf1cb3300b684aaf6dab12e06c9f9, type: 3}
-  - title: Second Super Game
-    description: Almost so good as first game
-    screenshots:
-    - {fileID: 21300000, guid: 10c23ced20dd9084e91492d00f8845c6, type: 3}
-  - title: Third Super Game
-    description: Not even close
-    screenshots:
+  - Title: SuperGame
+    Description: SuperPuperGame
+    Icon: {fileID: 21300000, guid: bb12478bc7c38af4790c6e0a97ed7abc, type: 3}
+    Screenshots:
     - {fileID: 21300000, guid: bb12478bc7c38af4790c6e0a97ed7abc, type: 3}
+  - Title: SuperGameTWO
+    Description: AfigetGame
+    Icon: {fileID: 21300000, guid: 10c23ced20dd9084e91492d00f8845c6, type: 3}
+    Screenshots:
+    - {fileID: 21300000, guid: 10c23ced20dd9084e91492d00f8845c6, type: 3}
+  - Title: Dambo
+    Description: DamboMamboYabaDu
+    Icon: {fileID: 21300000, guid: e89cf1cb3300b684aaf6dab12e06c9f9, type: 3}
+    Screenshots:
+    - {fileID: 21300000, guid: e89cf1cb3300b684aaf6dab12e06c9f9, type: 3}

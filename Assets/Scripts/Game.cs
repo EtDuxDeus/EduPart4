@@ -8,8 +8,9 @@ namespace UI
     [System.Serializable]
     public class Game
     {
-        public string title;
-        public string description;
-        public List<Sprite> screenshots;
+        public string Title;
+        public string Description;
+        public Sprite Icon;
+        public List<Sprite> Screenshots;
     }
 }
