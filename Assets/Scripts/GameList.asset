@@ -14,10 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameList:
   - Title: SuperGame
-    Description: SuperPuperGame
+    Description: Lorem Ipsum is simply dummy text of the printing and typesetting
+      industry. Lorem Ipsum has been the industry's standard dummy text ever since
+      the 1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but also
+      the leap into electronic typesetting, remaining essentially unchanged. It was
+      popularised in the 1960s with the release of Letraset sheets containing Lorem
+      Ipsum passages, and more recently with desktop publishing software like Aldus
+      PageMaker including versions of Lorem Ipsum.
     Icon: {fileID: 21300000, guid: bb12478bc7c38af4790c6e0a97ed7abc, type: 3}
     Screenshots:
     - {fileID: 21300000, guid: bb12478bc7c38af4790c6e0a97ed7abc, type: 3}
+    - {fileID: 21300000, guid: e89cf1cb3300b684aaf6dab12e06c9f9, type: 3}
+    - {fileID: 21300000, guid: 10c23ced20dd9084e91492d00f8845c6, type: 3}
   - Title: SuperGameTWO
     Description: AfigetGame
     Icon: {fileID: 21300000, guid: 10c23ced20dd9084e91492d00f8845c6, type: 3}

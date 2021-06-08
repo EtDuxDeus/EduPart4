@@ -285,7 +285,7 @@ MonoBehaviour:
   ScreenshotHolder: {fileID: 0}
   Description: {fileID: 0}
   DescriptionCanvas: {fileID: 0}
-  ScrenshotPrefab: {fileID: 0}
+  ScreenshotPrefab: {fileID: 52030266867502257, guid: 338a6802513c8c64aba816b7d2f73aed, type: 3}
   gameRef:
     Title: 
     Description: 

@@ -13,12 +13,21 @@ namespace UI
         public ScrollRect ScreenshotHolder;
         public TextMeshProUGUI Description;
         public Canvas DescriptionCanvas;
-        public Image ScrenshotPrefab;
+        public Image ScreenshotPrefab;
         public Game gameRef;
+
 
         public void ShowGameInfo()
         {
             ClearAllData();
+            FillFieldsOfDescription();
+            AddGameScreenshots();
+            ChangeSizeOfScreenshotHolder();
+        }
+
+
+        private void FillFieldsOfDescription()
+        {
             Icon.sprite = gameRef.Icon;
             Title.text = gameRef.Title;
             Description.text = gameRef.Description;
@@ -26,8 +35,28 @@ namespace UI
         }
 
 
-        public void ClearAllData()
+        private void AddGameScreenshots()
         {
+            foreach (var i in gameRef.Screenshots)
+            {
+                Image screenshot = Instantiate(ScreenshotPrefab, ScreenshotHolder.content.transform);
+                screenshot.sprite = i;
+            }
+        }
+
+
+        private void ChangeSizeOfScreenshotHolder()
+        {
+            ScreenshotHolder.content.sizeDelta = new Vector2(750 * gameRef.Screenshots.Count, ScreenshotHolder.content.rect.height);
+        }
+
+
+        private void ClearAllData()
+        {
+            for (int i = 0; i < ScreenshotHolder.content.childCount; i++)
+            {
+                Destroy(ScreenshotHolder.content.GetChild(i).gameObject, 0f);
+            }
         }
     }
 }
