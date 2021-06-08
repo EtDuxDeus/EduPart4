@@ -13,27 +13,42 @@ MonoBehaviour:
   m_Name: GameList
   m_EditorClassIdentifier: 
   GameList:
-  - Title: SuperGame
-    Description: Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever since
-      the 1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but also
-      the leap into electronic typesetting, remaining essentially unchanged. It was
-      popularised in the 1960s with the release of Letraset sheets containing Lorem
-      Ipsum passages, and more recently with desktop publishing software like Aldus
-      PageMaker including versions of Lorem Ipsum.
-    Icon: {fileID: 21300000, guid: bb12478bc7c38af4790c6e0a97ed7abc, type: 3}
+  - Title: SuperMarioRun
+    Description: 'A new kind of Mario game that you can play with one hand.  You
+      control Mario by tapping as he constantly runs forward. You time your taps
+      to pull off stylish jumps, midair spins, and wall jumps to gather coins and
+      reach the goal!  Super Mario Run can be downloaded for free and after you purchase
+      the game, you will be able to play all the modes with no additional payment
+      required. You can try out all four modes before purchase: World Tour, Toad
+      Rally, Remix 10, and Kingdom Builder.'
+    Icon: {fileID: 21300000, guid: 92dc1ca70933a3f4d9d1291414272824, type: 3}
     Screenshots:
-    - {fileID: 21300000, guid: bb12478bc7c38af4790c6e0a97ed7abc, type: 3}
-    - {fileID: 21300000, guid: e89cf1cb3300b684aaf6dab12e06c9f9, type: 3}
-    - {fileID: 21300000, guid: 10c23ced20dd9084e91492d00f8845c6, type: 3}
-  - Title: SuperGameTWO
-    Description: AfigetGame
-    Icon: {fileID: 21300000, guid: 10c23ced20dd9084e91492d00f8845c6, type: 3}
+    - {fileID: 21300000, guid: 32f977e44e5d6534a946924f579f38fa, type: 3}
+    - {fileID: 21300000, guid: 0165d1c2401f84a4bae3a43aa8edc493, type: 3}
+    - {fileID: 21300000, guid: eef59982900ff7f40a5efcfc434607cf, type: 3}
+  - Title: FalloutShelter
+    Description: "** Google Play Best of 2015 ** Mobile Game of the Year - 2016 DICE
+      Awards Winner 2015 Golden Joystick Best Handheld/Mobile Game  \"Might just
+      be the best free-to-play game out there\" - GamesBeat \"Probably the best game
+      of E3 2015\u201D \u2013 Gizmodo \"Fallout Shelter is simple to play and addictive
+      as hell.\" - GameZone  BUILD THE PERFECT VAULT Create a brighter future\u2026underground!
+      Select from a variety of modern-day rooms to turn an excavation beneath 2,000
+      feet of bedrock into the very picture of Vault Life."
+    Icon: {fileID: 21300000, guid: 4dffc254945808444a9921aac2f2d24c, type: 3}
     Screenshots:
-    - {fileID: 21300000, guid: 10c23ced20dd9084e91492d00f8845c6, type: 3}
-  - Title: Dambo
-    Description: DamboMamboYabaDu
-    Icon: {fileID: 21300000, guid: e89cf1cb3300b684aaf6dab12e06c9f9, type: 3}
+    - {fileID: 21300000, guid: 01622b0de8725d942ace4359a609d8ec, type: 3}
+    - {fileID: 21300000, guid: fae3de01356652547b84c99f30bb2dea, type: 3}
+    - {fileID: 21300000, guid: 83e3dda0fd2f2504a87856d12b7025e8, type: 3}
+  - Title: WildRift
+    Description: 'Dive into Wild Rift: the skills-and-strategy 5v5 MOBA experience
+      of League of Legends by Riot Games, now built from the ground up for mobile.
+      With smooth controls and fast-paced games, you can team up with friends, lock
+      in your champion, and go for the big plays.  PLAY TO OUTPLAY Master the Rift
+      and earn your legend with dynamic champs and ever-changing strats. Each game
+      is a chance to land the perfect skill shot, turn the tides in a crazy teamfight,
+      or pull off that sweet, sweet pentakill.'
+    Icon: {fileID: 21300000, guid: 8b2e3fc54d6fcf74cb7a598f45aece12, type: 3}
     Screenshots:
-    - {fileID: 21300000, guid: e89cf1cb3300b684aaf6dab12e06c9f9, type: 3}
+    - {fileID: 21300000, guid: 92a65522c1382894da8cb88ad3e9909b, type: 3}
+    - {fileID: 21300000, guid: f95e66fd4aaea8243a8a3f9e90ce39ce, type: 3}
+    - {fileID: 21300000, guid: f1d039c6b675c534094a30202ff79526, type: 3}
