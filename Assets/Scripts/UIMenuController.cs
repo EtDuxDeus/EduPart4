@@ -9,13 +9,14 @@ namespace UI
     {
         public Animator ContentPanel;
 
+        private readonly int _hashOpenTrigger = Animator.StringToHash("IsHidden");
 
         public void ToggleMenu()
         {
             ContentPanel.enabled = true;
 
             bool isHidden = ContentPanel.GetBool("IsHidden");
-            ContentPanel.SetBool("IsHidden", !isHidden);
+            ContentPanel.SetBool(_hashOpenTrigger, !isHidden);
         }
 
 
